@@ -19,8 +19,8 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
-		out.print("<center><h1><b> *** Hi, *** </b></h1></center>");
-		out.print("<center><h1><b> *** Welcome to CAPE *** </b></h1></center>");
+		out.print("<center><h1><b> *** Hi Harsha, *** </b></h1></center>");
+		out.print("<center><h1><b> *** Pipeline Tested *** </b></h1></center>");
 		out.flush();
 		out.close();
 	}
