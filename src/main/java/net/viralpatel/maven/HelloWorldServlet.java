@@ -1,5 +1,4 @@
 package net.viralpatel.maven;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
