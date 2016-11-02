@@ -18,8 +18,8 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
-		out.print("<center><h1><b> *** Hi Harsha, *** </b></h1></center>");
-		out.print("<center><h1><b> *** Pipeline Testing is completed *** </b></h1></center>");
+		out.print("<center><h1><b> *** Hello All *** </b></h1></center>");
+		out.print("<center><h1><b> *** CAPE Dev Ops Pipeline Demo App *** </b></h1></center>");
 		out.flush();
 		out.close();
 	}
